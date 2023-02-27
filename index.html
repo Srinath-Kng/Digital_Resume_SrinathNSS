@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- BOX ICONS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- Favicon -->
+        <link rel="icon" href="assets/img/android-chrome-512x512.png"  type="image/jpg">
+
+        <title>Digital Resume</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav_logo">Srinath N S S</a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">
+                                <i class='bx bx-home nav_icon'></i>Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#profile" class="nav_link">
+                                <i class='bx bx-user nav_icon'></i>Profile
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">
+                                <i class='bx bx-book nav_icon'></i>Education
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">
+                                <i class='bx bx-receipt nav_icon'></i>Skills
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#experience" class="nav_link">
+                                <i class='bx bx-briefcase-alt nav_icon'></i>Experience
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#certificate" class="nav_link">
+                                <i class='bx bx-award nav_icon'></i>Certificate
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#references" class="nav_link">
+                                <i class='bx bx-calendar-event nav_icon'></i>Events Attended
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!-- HOME -->
+                    <section class="home" id="home">
+                        <div class="home_containter section bd-grid">
+                            <div class="home_data bd-grid">
+                                <img src="assets/img/myimage.png" alt="" class="home_img center">
+                                <h1 class="home_title">SRINATH <b>N S S</b></h1>
+                                <h3 class="home_profession">Web & Software Developer</h3>
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/Updated Resume.pdf" class="home_button-movil">Download</a>
+                                </div>
+                            </div>
+                            <div class="home_address bd-grid">
+                                <span class="home_information">
+                                    <i class="bx bx-map"> &nbsp; </i> Coimbatore, TamilNadu 
+                                </span>
+                                <span class="home_information">
+                                    <i class="bx bx-envelope"> &nbsp; </i> srinath.cs20@bitsathy.ac.in
+                                </span>
+                                <span class="home_information">
+                                    <i class="bx bx-phone"> &nbsp; </i> +91 7010864817
+                                </span>
+                            </div>
+                        </div>
+                        
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+                        <!-- Button to generate and download the pdf. Available for desktop -->
+                        <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!-- SOCIAL -->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+                        <div class="social_container bd-grid">
+                            <a href="https://www.linkedin.com/in/srinath-n-s-s-610212210/" target="_blank" class="social_link">
+                                <i class="bx bxl-linkedin-square social_icon"></i> @Srinath N S S
+                            </a>
+                            <a href="https://github.com/Srinath-Kng" target="_blank" class="social_link">
+                                <i class="bx bxl-github social_icon"></i> @Srinath-Kng
+                            </a>
+        
+                        </div>
+                    </section>
+                    <!-- PROFILE -->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+                        <p class="profile_description">
+                            I'm a Web Developer and Student from Coimbatore, TamilNadu, Studying Computer Science and Engineering. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+
+My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I am looking for an entry-level position to kickstart my career in the software field. 
+                        </p>
+                    </section>
+                    
+                    <!-- EDUCATION -->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <div class="education_container bd-grid">
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">Bachelors Computer Science Engineering</h3>
+                                    <span class="education_studies">Bannari Amman Institute of Technology, Sathyamangalam</span>
+                                    <span class="education_year">2020 - 2024</span>
+                                    <span>CGPA:9.16<sup>*</sup></span>
+                                </div>
+                            </div>
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <span class="education_line"></span>
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">SSLC(10<sup>th</sup>)</h3>
+                                    <span class="education_studies">Suguna Rip V School</span>
+                                    <span class="education_year">2018</span>
+                                    <span>94.4%</span>
+                                </div>
+                            </div>
+                            <div class="education_content">
+                                <div class="education_time">
+                                    <span class="education_rounder"></span>
+                                    <!-- <span class="education_line"></span> -->
+                                </div>
+                                <div class="education_data bd-grid">
+                                    <h3 class="education_title">HSC(12<sup>th</sup>)</h3>
+                                    <span class="education_studies">Suguna Rip V School</span>
+                                    <span class="education_year">2020</span>
+                                    <span>91.5%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- SKILLS  -->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <div class="skills_content bd-grid">
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> HTML
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> CSS
+                                </li>
+                                
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> JAVASCRIPT
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span> Basics of React-JS
+                                </li>
+                            </ul>
+                            <ul class="skills_data">
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>C and C++
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>MySql
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>Flutter
+                                </li>
+                                <li class="skills_name">
+                                    <span class="skills_circle"></span>Figma and Canva
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="resume__right">
+                    <!-- PROJECTS -->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">PROJECTS</h2>
+                        <div class="experience_container bd-grid">
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <span class="experience_line"></span>
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">BIT HOSTEL LAUNDRY</h3>
+                                    <span class="experience_company">Duration: 3 Months | <a href="https://github.com/Srinath-Kng/Bit_Hostel_laundry_Developer2">Project Link</a> </span>
+                                    <p class="experience_description">
+                                        It is an in-house application for managing to efficiently handle the orders and reduce chaos. This
+app contains 2 Panels: Admin and Student. Details stored using MongoDB so the loss of bill problem can be
+rectified.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience_content">
+                                <div class="experience_time">
+                                    <span class="experience_rounder"></span>
+                                    <!-- <span class="experience_line"></span> -->
+                                </div>
+                                <div class="experience_data bd-grid">
+                                    <h3 class="experience_title">REAL-TIME OBJECT DETECTION USING OPENCV</h3>
+                                    <span class="experience_company">Duration: 2 Weeks | <a href="https://github.com/Srinath-Kng/FACE_DEETECTION_AT_REALTIME_USING_OPENCV">Project Link</a></span>
+                                    <p class="experience_description">
+                                        Real time object detection using open-CV is a computer vision project that uses the opensource
+computer vision library open-CV to detect and track objects in real-time video streams
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        
+                    </section>
+                    <!-- CERTIFICATES -->
+                    <section class="certificate section" id="certificate">
+                        <h2 class="section-title">Certificates</h2>
+                        <div class="certificate_container bd-grid">
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Android App Development Bootcamp - 2021</h3>
+                                <p class="certificate_description">
+                                    I had done detailed course on Flutter that is a mobile app development framework that allows developers to create beautiful and high-performance Android apps with ease. Obtaining a Flutter certification demonstrates proficiency in developing Android apps with Flutter and validates your skills in the field.
+                                </p>
+                            </div>
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Introduction to Git and GitHub - 2022</h3>
+                                <p class="certificate_description">
+                                    Git is a powerful version control system that allows developers to track and manage changes to their codebase, while Github is a popular web-based platform for hosting and collaborating on Git repositories. Obtaining a Git and Github certification validates your knowledge and skills in using these tools for effective software development.
+                                </p>
+                            </div>
+            
+                            <div class="certificate_content">
+                                <h3 class="certificate_title">Web Development - 2017 </h3>
+                                <p class="certificate_description">
+                                    I had done 4 Weeks Integrated Course on Web Development. I had learned HTML, CSS, JavaScript, PHP, MySQL, Bootstrap, jQuery, WordPress, and more. I had also learned how to create a website from scratch.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- REFERENCES -->
+                    <section class="references section" id="references">
+                        <h2 class="section-title">Co-Curricular Activities</h2>
+                        <div class="references_container bd-grid">
+                            <div class="references_content bd-grid">
+                                <h3 class="references_title">Paper Presentation</h3>
+                                <ul class="references_contact">
+                                    <li>Semi-Finalist for Paper Presentation in “ELECTROFOCUS’22”- (MAY 7 - MAY 8)</li>
+                                    <li>A Paper Presentation Competition by MIT.</li>
+                                    <li>Project : Vehicle Theft detection</li>
+                                </ul>
+                            </div>
+                            <div class="references_content bd-grid">
+                                <h3 class="references_title">Project Presentation</h3>
+                                <ul class="references_contact">
+                                    <li>Semifinalist of VIT-RASVERSE Idea find+ (JULY 15 - JULY 17)</li>
+                                    <li>A Project Competition Initiative by VELLORE INSTITUTE OF TECHNOLOGY.</li>
+                                    <li>Project : Vehicle Theft detection</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- LANGUAGES -->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+                        <div class="languages_container">
+                            <ul class="languages_content bd-grid">
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> English (R-W-S)
+                                </li>
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> Tamil (R-W-S)
+                                </li>
+                                <li class="languages_name">
+                                    <span class="languages_circle"></span> French (R-W) 
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!-- INTERESTS -->
+                    <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+                        <div class="interests_container bd-grid">
+                            <div class="interests_content">
+                                <i class='bx bx-code-alt interests_icon'></i>
+                                <span class="interests_name">Coding</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class='bx bx-coin-stack interests_icon' ></i>
+                                <span class="interests_name">CoinStack</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class="bx bxs-plane-alt interests_icon"></i>
+                                <span class="interests_name">Traveling</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class="bx bx-user-circle interests_icon"></i>
+                                <span class="interests_name">Subs</span>
+                            </div>
+                            <div class="interests_content">
+                                <i class="bx bx-game interests_icon"></i>
+                                <span class="interests_name">PC Games</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main> 
+
+        <!-- SCROLL TOP -->
+            <a href="#" class="scrolltop" id="scrolltop">
+                <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
+            </a>
+
+        <!-- HTML2PDF -->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+        
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+    </body> <br>
+</html>
