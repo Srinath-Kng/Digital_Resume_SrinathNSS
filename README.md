@@ -11,7 +11,7 @@ Contains Dark-Mode and Light-Mode,A digital resume, also known as an online resu
 #LIGHT_MODE<br>
 ![Resume-Images_Light](https://user-images.githubusercontent.com/85686300/221473536-3950d037-35b2-487b-b88b-d24d8ff36329.png)<br>
 #MOBILE-VIEW<br>
-![Mobile_View_Light](https://user-images.githubusercontent.com/85686300/221475133-5091a76f-fb71-49fd-98b6-4a486254789e.png)<br>
+![Mobile_View_Light](https://user-images.githubusercontent.com/85686300/221475133-5091a76f-fb71-49fd-98b6-4a486254789e.png)
 ![Mobile_View_Dark](https://user-images.githubusercontent.com/85686300/221475139-355771c2-92e3-454c-bb6c-81c1cd31ab19.png)<br>
 
 #COLLAGE<br>
